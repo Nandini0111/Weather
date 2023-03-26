@@ -10,11 +10,29 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 1s ease;
+    transition: all 0.45s ease;
     background-color: #8ecae6;
     color: black;
 }
 
+.btn{
+    padding: 0.5rem;
+    cursor:pointer;
+    background: white;
+    background: linear-gradient(to right bottom,
+    rgba(255,255,255,0.7),
+    rgba(255,255,255,0.4));
+    border-radius: 50%;
+    position: fixed;
+    bottom: 1.5rem;
+    right:2rem;
+}
+
+.btn i{
+    font-size: 1.7rem;
+    position: sticky;
+    color: black;
+}
 .container {
     background: white;
     background: linear-gradient(to right bottom,
